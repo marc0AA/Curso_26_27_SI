@@ -6,7 +6,7 @@
 
 ### Ejercicio 1
 
-- Apartado a solucion
+- 245,3(6) ---> 
 - Apartado b solucion
 
 

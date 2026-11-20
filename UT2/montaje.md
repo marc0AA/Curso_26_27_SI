@@ -1,4 +1,3 @@
- 
 # SI · UT2 — Ficha de taller: montaje y revisión de un ordenador
 
 ## 1. Orden de trabajo
@@ -6,9 +5,8 @@
 **Fecha:** ____________________  **Puesto:** ____________________  **Equipo / etiqueta:** ____________________
 
 **Integrantes del grupo (2 o 3):**
-
-1. Nombre y apellidos: ______________________________________________
-2. Nombre y apellidos: ______________________________________________
+1. Nombre y apellidos: Marco Ariza Arroyo
+2. Nombre y apellidos: Antonio Fco. Montero Gordo ______________________________________________
 3. Nombre y apellidos (si procede): __________________________________
 
 > **Equipo A:** ordenador de prácticas utilizado para el montaje o la revisión. Puede estar averiado; no se exige que arranque.
@@ -19,31 +17,32 @@
 
 **Trabajo previsto:**
 
-- [ ] Desmontaje y montaje
-- [ ] Revisión / diagnóstico
+- [X] Desmontaje y montaje
+- [X] Revisión / diagnóstico
 - [ ] Otro: ___________________________________
 
 **Estado al recibirlo:**
 
 - [ ] Completo
-- [ ] Faltan piezas
+- [X] Faltan piezas
 - [ ] Sucio
 - [ ] Daños visibles
 
 **Síntomas conocidos, piezas ausentes o daños observados:**
 
-________________________________________________________________________
-
+Falta disco duro
 ________________________________________________________________________
 
 ## 3. Seguridad y preparación · Equipo A
 
-- [ ] Equipo desconectado de la corriente y de los periféricos.
-- [ ] Botón de encendido pulsado tras desconectar.
-- [ ] Superficie despejada y piezas organizadas.
-- [ ] Estado inicial y conexiones fotografiados.
+- [X] Equipo desconectado de la corriente y de los periféricos.
+- [X] Botón de encendido pulsado tras desconectar.
+- [X] Superficie despejada y piezas organizadas.
+- [X] Estado inicial y conexiones fotografiados.
 
-**Herramientas utilizadas:** _______________________________________________
+**Herramientas utilizadas:** 
+
+Destornillador de punta de estrella imantado
 
 **No abráis la fuente ni forcéis piezas.** Ante daños o baterías, avisad al profesor.
 
@@ -53,34 +52,32 @@ Anotad lo que podáis verificar. Si no se distingue, escribid «no identificado�
 
 | Componente | Marca / modelo | Dato observado |
 |---|---|---|
-| Placa base | | |
-| Procesador | | |
-| RAM | | |
-| Almacenamiento | | |
-| Fuente | | |
-| Disipador / ventilador | | |
-| Tarjetas / otros | | |
+| Placa base | |Gigabyte |
+| Procesador | |Intel Celeron G1840 |
+| RAM | |Crucial DDR3 |
+| Almacenamiento | |Faltante |
+| Fuente | |Power Man |
+| Disipador / ventilador | |Intel |
+| Tarjetas / otros | |Tarjeta de wifi |
 
 ## 5. Conexiones y observaciones · Equipo A
 
 Identificad y marcad las conexiones presentes y comprobadas:
 
-- [ ] Alimentación de la placa
-- [ ] Alimentación de la CPU
-- [ ] Ventilador de la CPU
-- [ ] Datos de almacenamiento
-- [ ] Alimentación del disco
-- [ ] Panel frontal
+- [X] Alimentación de la placa
+- [X] Alimentación de la CPU
+- [X] Ventilador de la CPU
+- [No hay] Datos de almacenamiento
+- [X] Alimentación del disco
+- [X] Panel frontal
 
 **¿Hay algún cable suelto, conector dañado o conexión que no sepáis identificar?**
 
-________________________________________________________________________
-
-________________________________________________________________________
+Ninguno 
 
 **Fotografías de referencia (nombre de archivo o ubicación):**
 
-________________________________________________________________________
+[Ver carpeta de imágenes](./imagenes/)
 
 No retiréis la CPU ni el disipador sin indicación del profesor. Si se retira el disipador, consultad sobre limpieza y pasta térmica antes de volver a instalarlo.
 
@@ -90,39 +87,33 @@ Registrad únicamente lo que hayáis hecho; marcad **N/P** si no procede.
 
 | Operación | Hecho | N/P | Foto / observaciones |
 |---|:---:|:---:|---|
-| Apertura y fotos iniciales | ☐ | ☐ | |
-| Desconexión y organización de cables | ☐ | ☐ | |
-| Desmontaje / montaje de memoria | ☐ | ☐ | |
-| Revisión / montaje de almacenamiento | ☐ | ☐ | |
-| CPU y disipador, si se autoriza | ☐ | ☐ | |
-| Tarjetas de expansión | ☐ | ☐ | |
-| Reconexión y orden de cables | ☐ | ☐ | |
-| Cierre y limpieza del puesto | ☐ | ☐ | |
+| Apertura y fotos iniciales |X| ☐ | |
+| Desconexión y organización de cables |X| ☐ | |
+| Desmontaje / montaje de memoria |X| ☐ | |
+| Revisión / montaje de almacenamiento | ☐  | X | |
+| CPU y disipador, si se autoriza |X| ☐ | |
+| Tarjetas de expansión |X| ☐ | |
+| Reconexión y orden de cables |X| ☐ | |
+| Cierre y limpieza del puesto |X| ☐ | |
 
 ## 7. Incidencia o reparación · Equipo A
 
 **Problema encontrado / hipótesis** (si no hay, indicadlo):
 
-________________________________________________________________________
-
-________________________________________________________________________
+No se encontraron problemas
 
 **Acción realizada y resultado observado:**
 
-________________________________________________________________________
-
-________________________________________________________________________
-
-________________________________________________________________________
+Ninguna acción realizada
 
 ## 8. Comprobación final · Equipo A
 
-- [ ] Piezas sujetas.
-- [ ] RAM encajada.
-- [ ] Cables revisados.
-- [ ] Sin tornillos sueltos.
-- [ ] Ventilador de CPU conectado.
-- [ ] Puesto recogido.
+- [X] Piezas sujetas.
+- [X] RAM encajada.
+- [X] Cables revisados.
+- [X] Sin tornillos sueltos.
+- [X] Ventilador de CPU conectado.
+- [X] Puesto recogido.
 
 **¿Encendido autorizado?** ☐ Sí  ☐ No
 
