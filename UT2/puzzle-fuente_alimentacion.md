@@ -1,10 +1,8 @@
 # Puzzle de componentes · Pieza 09: Fuente de alimentación (PSU)
 
 **Grupo:** Marco Ariza · Antonio Montero  
-
+**Presentación:** [Fuente de alimentación (Genially)](https://view.genially.com/6aec404e6807e230394f80cf)
 ## Resumen
-
-![Fuente de alimentación del equipo del taller UT2, fuera de la caja](./imagenes/15_fuente-alimentacion-extraida-y-bahia-frontal.jpg)
 
 *Fuente de alimentación (Power Man) del equipo del taller UT2, extraída de la caja. Foto propia.*
 
