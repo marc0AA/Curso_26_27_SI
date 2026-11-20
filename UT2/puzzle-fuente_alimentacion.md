@@ -1,7 +1,6 @@
 # Puzzle de componentes · Pieza 09: Fuente de alimentación (PSU)
 
 **Grupo:** Marco Ariza · Antonio Montero  
-**Presentación:** [Fuente de alimentación (Genially)](https://view.genially.com/6aec404e6807e230394f80cf)
 
 ## Resumen
 
