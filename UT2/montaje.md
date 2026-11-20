@@ -142,6 +142,16 @@ Utilizad vuestro propio ordenador funcional para los siguientes apartados.
 
 **Sistema operativo y versión:** Ubuntu 26.04.1 LTS
 
+Salida de `lsb_release -a` (el aviso «No LSB modules are available» es normal en Ubuntu):
+
+```text
+No LSB modules are available.
+Distributor ID: Ubuntu
+Description:    Ubuntu 26.04.1 LTS
+Release:        26.04
+Codename:       resolute
+```
+
 **Si es virtual: sistema anfitrión y programa de virtualización:** Windows 11 Pro con WSL2.
 
 **¿Arranca con normalidad? ¿Qué observáis desde el encendido hasta el inicio?**
@@ -162,6 +172,64 @@ No cambiéis ajustes de UEFI sin indicación del profesor. Si no podéis acceder
 
 Ejecutad `lscpu`. Adjuntad la salida revisada o indicad si el comando falla.
 
+Salida de `lscpu`:
+
+```text
+Architecture:                x86_64
+  CPU op-mode(s):            32-bit, 64-bit
+  Address sizes:             48 bits physical, 48 bits virtual
+  Byte Order:                Little Endian
+CPU(s):                      8
+  On-line CPU(s) list:       0-7
+Vendor ID:                   AuthenticAMD
+  Model name:                AMD Ryzen 7 4700U with Radeon Graphics
+    CPU family:              23
+    Model:                   96
+    Thread(s) per core:      1
+    Core(s) per socket:      8
+    Socket(s):               1
+    Stepping:                1
+    BogoMIPS:                3992.55
+    Flags:                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt
+                              pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq
+                              ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a mis
+                             alignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clfl
+                             ushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists
+                             pausefilter pfthreshold v_vmsave_vmload umip rdpid
+Virtualization features:
+  Virtualization:            AMD-V
+  Hypervisor vendor:         Microsoft
+  Virtualization type:       full
+Caches (sum of all):
+  L1d:                       256 KiB (8 instances)
+  L1i:                       256 KiB (8 instances)
+  L2:                        4 MiB (8 instances)
+  L3:                        4 MiB (1 instance)
+NUMA:
+  NUMA node(s):              1
+  NUMA node0 CPU(s):         0-7
+Vulnerabilities:
+  Gather data sampling:      Not affected
+  Ghostwrite:                Not affected
+  Indirect target selection: Not affected
+  Itlb multihit:             Not affected
+  L1tf:                      Not affected
+  Mds:                       Not affected
+  Meltdown:                  Not affected
+  Mmio stale data:           Not affected
+  Old microcode:             Not affected
+  Reg file data sampling:    Not affected
+  Retbleed:                  Mitigation; untrained return thunk; SMT disabled
+  Spec rstack overflow:      Mitigation; SMT disabled
+  Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+  Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+  Spectre v2:                Mitigation; Retpolines; IBPB conditional; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+  Srbds:                     Not affected
+  Tsa:                       Not affected
+  Tsx async abort:           Not affected
+  Vmscape:                   Not affected
+```
+
 **Modelo / CPU presentada a Linux:** AMD Ryzen 7 4700U with Radeon Graphics
 
 **Arquitectura:** x86_64  **CPU lógicas visibles:** 8
@@ -174,6 +242,14 @@ Un núcleo es una unidad física del procesador que ejecuta instrucciones. Un hi
 
 Adjuntad las salidas de los comandos. Si alguno falla o no está disponible, anotadlo. Antes de entregarlas, ocultad usuarios, nombres de equipo, números de serie y UUID. En una máquina virtual pueden mostrarse recursos virtuales, no el hardware físico completo.
 
+Salida de `free -h`:
+
+```text
+               total        used        free      shared  buff/cache   available
+Mem:           5.5Gi       537Mi       4.9Gi       3.5Mi       183Mi       4.9Gi
+Swap:          2.0Gi          0B       2.0Gi
+```
+
 **Memoria total:** 5,5 GiB  **Memoria disponible:** 4,9 GiB
 
 **¿Qué significa «disponible» y por qué puede diferir de «libre»?**
@@ -181,6 +257,17 @@ Adjuntad las salidas de los comandos. Si alguno falla o no está disponible, ano
 «Libre» es la memoria que no se está usando para nada. «Disponible» es la que se puede dar a programas nuevos, e incluye la memoria que usa la caché pero que el sistema puede liberar. Por eso «disponible» suele ser mayor que «libre». Además, en WSL2 la memoria total es la asignada a la máquina virtual, no toda la RAM del portátil.
 
 ## 12. Linux: almacenamiento · `lsblk`
+
+Salida de `lsblk`:
+
+```text
+NAME MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sda    8:0    0 356.9M  1 disk
+sdb    8:16   0 159.4M  1 disk
+sdc    8:32   0     2G  0 disk [SWAP]
+sdd    8:48   0     1T  0 disk /mnt/wslg/distro
+                               /
+```
 
 **Disco identificado:** sdd, de 1 T (disco virtual de WSL2)
 
@@ -191,6 +278,16 @@ Adjuntad las salidas de los comandos. Si alguno falla o no está disponible, ano
 El disco es el dispositivo donde se guardan los datos. La partición es una parte del disco con su propio sistema de archivos. El punto de montaje es la carpeta de Linux desde la que se accede a ese contenido, como `/`. Aquí los discos son virtuales, porque WSL2 los crea a partir de archivos de Windows.
 
 ## 13. Linux: dispositivos · `lspci` y `lsusb`
+
+Salida de `lspci` (tras instalar `pciutils`):
+
+```text
+4ec4:00:00.0 3D controller: Microsoft Corporation Basic Render Driver
+65f7:00:00.0 SCSI storage controller: Red Hat, Inc. Virtio 1.0 console (rev 01)
+ff12:00:00.0 System peripheral: Red Hat, Inc. Virtio 1.0 file system (rev 01)
+```
+
+Salida de `lsusb` (tras instalar `usbutils`): el comando se ejecutó sin errores y no devolvió ningún dispositivo.
 
 **Dispositivo 1 y función:** Microsoft Basic Render Driver. Es la tarjeta gráfica virtual que Windows ofrece a Linux.
 
