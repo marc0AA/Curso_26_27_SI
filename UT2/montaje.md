@@ -6,11 +6,12 @@
 
 **Integrantes del grupo (2 o 3):**
 1. Nombre y apellidos: Marco Ariza Arroyo
-2. Nombre y apellidos: Antonio Fco. Montero Gordo 
+2. Nombre y apellidos: Antonio Fco. Montero Gordo ______________________________________________
+3. Nombre y apellidos (si procede): __________________________________
 
 > **Equipo A:** ordenador de prácticas utilizado para el montaje o la revisión. Puede estar averiado; no se exige que arranque.
 >
-> **Equipo B:** Nuestro propio ordenador funcional. Lo utilizamos a partir del apartado 9 para analizar el arranque y el hardware desde Linux.
+> **Equipo B:** vuestro propio ordenador funcional. Se utiliza a partir del apartado 9 para analizar el arranque y el hardware desde Linux.
 
 ## 2. Recepción e inspección visual · Equipo A
 
@@ -18,7 +19,7 @@
 
 - [X] Desmontaje y montaje
 - [X] Revisión / diagnóstico
-- [ ] Otro: ___
+- [ ] Otro: ___________________________________
 
 **Estado al recibirlo:**
 
@@ -80,12 +81,12 @@ Ninguno
 
 Las fotos están numeradas por el orden aproximado del trabajo:
 
-- Estado inicial y caja: `01_caja-cerrada-lateral.jpg`, `02_caja-cerrada-parte-trasera-puertos.jpg`, `03_caja-abierta-tapa-retirada.jpg`, `04_vista-superior-interior-bahia-frontal-y-fuente.jpg`
-- Placa base y cableado inicial: `05_interior-placa-ram-ventilador-y-cables-fuente.jpg`, `06_ventilador-cpu-intel-y-cables.jpg`, `07_placa-base-pila-bios-y-cableado-panel-frontal.jpg`, `08_placa-gigabyte-pila-bios-y-chipset.jpg`, `09_placa-gigabyte-b85m-ds3h-puertos-sata-y-panel.jpg`, `10_placa-gigabyte-puertos-sata-y-cables-fuente.jpg`, `11_placa-gigabyte-b85m-ds3h-etiqueta-uefi-dualbios.jpg`, `12_placa-gigabyte-usb3-hdmi-dvi-y-cable-panel.jpg`, `13_cable-alimentacion-cpu-y-conector-ventilador.jpg`
-- Desmontaje de caja, fuente y tarjeta: `14_bahia-frontal-y-embellecedor-desmontados.jpg`, `15_fuente-alimentacion-extraida-y-bahia-frontal.jpg`, `16_placa-en-caja-con-cables-desconectados.jpg`, `17_placa-en-caja-vista-cenital-sin-fuente.jpg`, `18_tarjeta-wifi-pcie-300mbps-extraida.jpg`
-- Conectores de la fuente y del panel frontal: `19_conector-atx-24-pines-sobre-ficha.jpg`, `20_cable-alimentacion-cpu-8-pines-en-mano.jpg`, `21_conector-alimentacion-periferico-sobre-ficha.jpg`, `22_conectores-de-la-fuente-sobre-ficha.jpg`, `23_conector-alimentacion-sata-de-la-fuente.jpg`, `24_conectores-panel-frontal-fotografiados.jpg`, `25_conectores-panel-frontal-desconectados.jpg`
-- Placa, ventilador, RAM y CPU: `26_placa-base-en-caja-vista-general.jpg`, `27_ventilador-cpu-manipulado-en-la-placa.jpg`, `28_placa-base-extraida-con-disipador-y-ram.jpg`, `29_ram-crucial-ddr3-extraida.jpg`, `30_disipador-ventilador-intel-extraido.jpg`, `31_disipador-base-con-pasta-termica.jpg`, `32_placa-base-zocalo-cpu-sin-disipador.jpg`, `33_cpu-intel-celeron-en-zocalo-1150.jpg`, `34_zocalo-cpu-socket-1150-detalle.jpg`
-- Remontaje y reconexión: `35_remontaje-placa-con-ventilador-instalado.jpg`, `36_remontaje-placa-y-cables-panel-frontal.jpg`, `37_remontaje-ram-instalada.jpg`, `38_placa-montada-con-cables-ordenados.jpg`, `39_reconexion-conector-alimentacion-a.jpg`, `40_reconexion-conector-alimentacion-b.jpg`
+- Estado inicial y caja: [01_caja-cerrada-lateral.jpg](./imagenes/01_caja-cerrada-lateral.jpg), [02_caja-cerrada-parte-trasera-puertos.jpg](./imagenes/02_caja-cerrada-parte-trasera-puertos.jpg), [03_caja-abierta-tapa-retirada.jpg](./imagenes/03_caja-abierta-tapa-retirada.jpg), [04_vista-superior-interior-bahia-frontal-y-fuente.jpg](./imagenes/04_vista-superior-interior-bahia-frontal-y-fuente.jpg)
+- Placa base y cableado inicial: [05_interior-placa-ram-ventilador-y-cables-fuente.jpg](./imagenes/05_interior-placa-ram-ventilador-y-cables-fuente.jpg), [06_ventilador-cpu-intel-y-cables.jpg](./imagenes/06_ventilador-cpu-intel-y-cables.jpg), [07_placa-base-pila-bios-y-cableado-panel-frontal.jpg](./imagenes/07_placa-base-pila-bios-y-cableado-panel-frontal.jpg), [08_placa-gigabyte-pila-bios-y-chipset.jpg](./imagenes/08_placa-gigabyte-pila-bios-y-chipset.jpg), [09_placa-gigabyte-b85m-ds3h-puertos-sata-y-panel.jpg](./imagenes/09_placa-gigabyte-b85m-ds3h-puertos-sata-y-panel.jpg), [10_placa-gigabyte-puertos-sata-y-cables-fuente.jpg](./imagenes/10_placa-gigabyte-puertos-sata-y-cables-fuente.jpg), [11_placa-gigabyte-b85m-ds3h-etiqueta-uefi-dualbios.jpg](./imagenes/11_placa-gigabyte-b85m-ds3h-etiqueta-uefi-dualbios.jpg), [12_placa-gigabyte-usb3-hdmi-dvi-y-cable-panel.jpg](./imagenes/12_placa-gigabyte-usb3-hdmi-dvi-y-cable-panel.jpg), [13_cable-alimentacion-cpu-y-conector-ventilador.jpg](./imagenes/13_cable-alimentacion-cpu-y-conector-ventilador.jpg)
+- Desmontaje de caja, fuente y tarjeta: [14_bahia-frontal-y-embellecedor-desmontados.jpg](./imagenes/14_bahia-frontal-y-embellecedor-desmontados.jpg), [15_fuente-alimentacion-extraida-y-bahia-frontal.jpg](./imagenes/15_fuente-alimentacion-extraida-y-bahia-frontal.jpg), [16_placa-en-caja-con-cables-desconectados.jpg](./imagenes/16_placa-en-caja-con-cables-desconectados.jpg), [17_placa-en-caja-vista-cenital-sin-fuente.jpg](./imagenes/17_placa-en-caja-vista-cenital-sin-fuente.jpg), [18_tarjeta-wifi-pcie-300mbps-extraida.jpg](./imagenes/18_tarjeta-wifi-pcie-300mbps-extraida.jpg)
+- Conectores de la fuente y del panel frontal: [19_conector-atx-24-pines-sobre-ficha.jpg](./imagenes/19_conector-atx-24-pines-sobre-ficha.jpg), [20_cable-alimentacion-cpu-8-pines-en-mano.jpg](./imagenes/20_cable-alimentacion-cpu-8-pines-en-mano.jpg), [21_conector-alimentacion-periferico-sobre-ficha.jpg](./imagenes/21_conector-alimentacion-periferico-sobre-ficha.jpg), [22_conectores-de-la-fuente-sobre-ficha.jpg](./imagenes/22_conectores-de-la-fuente-sobre-ficha.jpg), [23_conector-alimentacion-sata-de-la-fuente.jpg](./imagenes/23_conector-alimentacion-sata-de-la-fuente.jpg), [24_conectores-panel-frontal-fotografiados.jpg](./imagenes/24_conectores-panel-frontal-fotografiados.jpg), [25_conectores-panel-frontal-desconectados.jpg](./imagenes/25_conectores-panel-frontal-desconectados.jpg)
+- Placa, ventilador, RAM y CPU: [26_placa-base-en-caja-vista-general.jpg](./imagenes/26_placa-base-en-caja-vista-general.jpg), [27_ventilador-cpu-manipulado-en-la-placa.jpg](./imagenes/27_ventilador-cpu-manipulado-en-la-placa.jpg), [28_placa-base-extraida-con-disipador-y-ram.jpg](./imagenes/28_placa-base-extraida-con-disipador-y-ram.jpg), [29_ram-crucial-ddr3-extraida.jpg](./imagenes/29_ram-crucial-ddr3-extraida.jpg), [30_disipador-ventilador-intel-extraido.jpg](./imagenes/30_disipador-ventilador-intel-extraido.jpg), [31_disipador-base-con-pasta-termica.jpg](./imagenes/31_disipador-base-con-pasta-termica.jpg), [32_placa-base-zocalo-cpu-sin-disipador.jpg](./imagenes/32_placa-base-zocalo-cpu-sin-disipador.jpg), [33_cpu-intel-celeron-en-zocalo-1150.jpg](./imagenes/33_cpu-intel-celeron-en-zocalo-1150.jpg), [34_zocalo-cpu-socket-1150-detalle.jpg](./imagenes/34_zocalo-cpu-socket-1150-detalle.jpg)
+- Remontaje y reconexión: [35_remontaje-placa-con-ventilador-instalado.jpg](./imagenes/35_remontaje-placa-con-ventilador-instalado.jpg), [36_remontaje-placa-y-cables-panel-frontal.jpg](./imagenes/36_remontaje-placa-y-cables-panel-frontal.jpg), [37_remontaje-ram-instalada.jpg](./imagenes/37_remontaje-ram-instalada.jpg), [38_placa-montada-con-cables-ordenados.jpg](./imagenes/38_placa-montada-con-cables-ordenados.jpg), [39_reconexion-conector-alimentacion-a.jpg](./imagenes/39_reconexion-conector-alimentacion-a.jpg), [40_reconexion-conector-alimentacion-b.jpg](./imagenes/40_reconexion-conector-alimentacion-b.jpg)
 
 No retiréis la CPU ni el disipador sin indicación del profesor. Si se retira el disipador, consultad sobre limpieza y pasta térmica antes de volver a instalarlo.
 
